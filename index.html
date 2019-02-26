@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Frank Sinatra</title>
+       <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+    
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    
+     <script src="js/wow.min.js"></script>
+             
+              <script>
+              new WOW().init();
+              </script>
+       
+	<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+              
+<link rel="icon" href="img/fedora.png" width="16px" height="16px">
+
+
+ </head> 
+	
+<body>
+
+<!----- HEADER START--->   
+<header id="header">
+<div class="content">
+
+<div id="logo"><a>Sinatra</a></div>
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">Intro</a></li>
+		<li><a href="#slide3" title="Next Section">Music</a></li>
+		<li><a  href="#slide4" title="Next Section">The Rat Pack</a></li>
+		<li><a href="#slide5" title="Next Section">Mafia</a></li>
+        <li><a href="#slide6" title="Next Section">Legacy</a></li>
+	</ul>
+</nav>
+</div>
+</header>	
+<!----- HEADER END--------->
+
+<!----- SLIDES START MULTIPLE BG CSS --->   	
+	<div id="slide1">
+		<div class="content">
+	    <div class="frankheader wow slideInLeft animated">
+       	  <h1 class="SinatraFont wow slideInLeft animated">Frank Sinatra</h1> </div> 
+        </div>
+    </div>
+<!------------------- SLIDES 2 - INTRODUCTION TO SINATRA --------------->
+	<div id="slide2">
+    <div class="content">
+	  <h1 class="heading2">Introduction to Sintra</h1>
+       
+        <img src="img/franksinatrapolaroid.png" width="245" height="306" class="polaroid1 wow slideInUp animated">
+        
+        <img src="img/deanandfrank.png" width="245" height="306" alt="" class="polaroid2 wow slideInRight animated">
+        <img src="img/polaroid3.png" width="300" alt="" class="polaroid3 wow slideInLeft animated">
+        
+<div class="slide2txt">
+      
+            <p>Frank Sinatra was a world renowned Singer, actor and producer. He is considered one of the most famous and influential singer of the 20th century. Frank Sinatras music is considered timeless. He is also one of the best selling musical artists of all time selling 150 million records worldwide.</p>
+            
+            <p> Born in Hoboken, New Jersey, to Italian immigrants, he began his musical career in the swing era with Harry James and Tommy Dorsey. He found success as a solo artist after being signed by Columbia Records in 1943, becoming the idol of the "bobby soxers". He released his first album, The Voice of Frank Sinatra, in 1946.</p>
+            <p> Frank Sinatras carear had declined in the 1950’s. From this he turned his focus to performing in Las Vegas with the <a  href="#slide4" title="Next Section">The Rat Pack</a>.
+His carear would be rekindeled in 1953 with From Here to Eternity. A movie he starred in. He won an Academy Award for Best Supporting Actor.
+</p>
+
+</div>
+		</div> 
+        <h1 class="quote2">"Basically, I'm for anything that gets you through the night - be it prayer, tranquilizers or a bottle of Jack Daniels."</h1>
+    </div>
+    
+  <!------------------- SLIDE 3 HIS LOVE FOR MUSIC -----------------> 
+<div id="slide3">
+        		
+            <div class="frankSlide3img"><img src="img/Frank_Sinatra_in_1957.png" width="365"  alt="image of frank" class="frankslide4 wow fadeInLeftBig animated"> 
+            <img src="img/fedora.png" width="320" class="fedora wow rotateINDownRight animated">
+            </div>
+          
+          <div class="slide3txt">
+          
+         	<h1 class="heading3">Ol' Blue Eye's love for Music</h1>
+             <p>Frank Sinatra began singing professionally as a teenager. He learned music by ear and never learned how to read music himself.
+             <br><br>
+             In 1935 he got his first break. His mother persuaded a local singing found, The 3 Flashes to let him join the group. Sinatra soon learned that they would be auditioning for the Major Bowes Amateur Hour show and ‘begged’ the group to let him sing with them on their act. Together with Sinatra they became know as the Hoboken Four.</p>
+             <p>Sinatra topped the male singer polls in Billboard and Down Beat magazines by 1941. His appeal to bobby soxers (teenage girls at the time were know as this) revealed a whole new audience for the popular music which had been recorded mainly for adults at the time. The sudden craze for Sinatra became known as the “Sinatramania” after his legendary opening at the Paramoind Theatre in New York on December 30, 1942.</p>
+             <p>Frank Sinatras carear had declined in the 1950’s. From this he turned his focus to performing in Las Vegas with the <a  href="#slide4" title="Next Section">The Rat Pack</a>.
+             After a short retirement in the early 70’s Sintra returned with the album ‘Ol Blue Eyes Is Back”. He continued to tour and perform around the worl up until the late 80's.</p>
+          </div>
+             
+    
+  <h1 class="quote3">"Throughout my career, if I have done anything, I have paid attention to every note and every word I sing - if I respect the song. If I cannot project this to a listener, I fail."</h1>
+   
+ 	</div>
+ 
+		 
+   
+
+	<!------------------ SLIDE 4 THE RAT PACK -----------------> 
+	
+	<div id="slide4">
+          
+           <img src="img/theratpack.png" width="640"  class="ratpackpic wow fadeInUp animated"> 
+           <h1 class="heading4">The Rat Pack</h1>
+          <div class="ratpacktxt">
+<p>The Rat Pack. An infamous performing singing group that played in Vegas. The group of actors centered around their leader, Humprey Bogart until his death in ’57. By the time the60’s rolled around the name used by the press and the public to refer to the newer variation og the group was ‘The Summit” or “the Clan” featuring Frank Sinatra, Dean Martin, Sammy Davis, Jr., Peter Lawford and Joey Bishop. They all appeared on stage and in movies together. Including Oceans 11, Sergeants 3 and Robin and the 7 Hoods. Sinatra, Martin, and Davis were regarded as the group's lead members</p>
+	
+<p>
+Sometimes one of the members of the group where to perform in their own show and the rest of The Rat Pack would show up and perform. This caused a lot of excitement to their fans and increased ticket sales and return visits. They sold out nearly every one of their appearances. People would flood to Vegas to see them. The Rat Pack’s appearances were of great value as it made people flood to the city of Vegas and gamblers were of abundance. 
+The Rat pack are also known for their style, music, movie appearances and performances on stage.
+ </p>
+    </div>
+        
+       <h1 class="quote4">"You're not drunk if you can lie on the floor without holding on"</h1>
+      </div>
+       <!---------------------- SLIDE5 THE MAFIA -----------------> 
+	<div id="slide5">
+	<div class="content">
+        	<div class="slide5txt">
+           <img src="img/tommygun.png" width="200" class="tommygunleft wow fadeInLeftBig animated">
+           <img src="img/tommygun2.png" width="200" class="tommygunright wow fadeInRightBig animated">
+<h1 class="heading5">Connections with the Mafia</h1>
+           <div class="slide5txt">
+             <p>
+Sinatra was seen as a "tough working-class Italian American" he took on this stereotype and sort of embraced it. He once said if it wasn’t for his love of music he’d have "probably have ended in a life of crime"
+</p> 
+             <p>In Sinatra’s early days mobster and Mafia Boss Willie Morretti helped Sinatra out get out of a contract with Tommy Dorsey. Sinatra was present in a Mafia conference in Havana in ’46. He was present with some of the most famous and dangerous mobsters at the time including Lucky Luciano.</p>
+             
+             <p>The FBI kept up to 2,403 pages on Sinatra because of his connections with the mafia, his Thoughts and actions on politics and his Friendship with John F. Kennedy. He was kept under surveillance by the FBI for up to five decades.</p>
+             
+             <p>In 1960 Sintra bought a share in the famous Cal Neva Lodge & Casino. Its right on the border and is halved by Nevada and California. It attracted the likes of the other Rat Pack members, Red Skelton, Marilyn Monroe, Victor Borge, Joe E. Lewis etc. His gambling license was temporarily revoked by the Nevada Gaming Control Board in 1963 after mobster Sam Giancana was spotted on the premises.</p>
+        		</div>
+             </div>
+              <img src="img/mafiaw.jpg" width="230" class="mafiapic wow fadeInLeftBig animated">
+              <img src="img/sinatramobster.jpg" width="210" class="mobster wow fadeInRightBig animated">
+
+        <h1 class="quote5">"Whatever else has been said about me personally is unimportant. When I sing, I believe. I'm honest."</h1>
+    </div>
+    </div> 
+    <!------------------- SLIDE 6 LEGACY -----------------> 
+    <div id="slide6">
+    <img src="img/frankold.jpg" width="400" alt="image of frank" class="frankold wow fadeInRightBig animated"> 
+   
+   <h1 class="heading6"> Death & Legacy</h1>
+   
+   <div class="slide6txt">
+   
+  <p> Sinatra died in with his wife at Cedars-Sinai Medical Center in LA on May 14 1996 at the old age of 82. He died of a heart attack. The last few years of his life he suffered from high blood pressure, pneumonia and bladder cancer. He was later diagnosed with dementia.</p>
+
+<p>His music is timeless, his style is fixed in a time of its own. His iconic style, music and lifestyle have been adapted into modern culture and imitated in film and television.</p> 
+
+<p>When it came to his lyrics Sintra sang in such a way that he told a story musically. He mixed many emotions and feelings to portray his music across to his audience. He had a charisma and charm that became his image and world famous.</p>
+
+<p>To this day everyone knows about Sinatra, his legacy and image. He will forever live on.</p>
+
+</div>
+
+
+   <h1 class="quote6">“You only go around once, but if you play your cards right, once is enough.” </h1>
+   <a href="http://www.sinatra.com/"><img src="img/fedora2.png" width="380" class="fedora2"></a>
+            
+    </div> 
+
+  
+<!----- SLIDES END --->
+</body>
+</html>
+
